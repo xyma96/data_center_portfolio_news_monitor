@@ -1,0 +1,153 @@
+{
+  "version": "1.1",
+  "description": "Data Center Supply Chain — AI Infrastructure Watch List (example)",
+  "owner_email": "YOUR_EMAIL@example.com",
+  "outlook_url": "https://outlook.office.com/mail/",
+  "archive_folder": "C:\\path\\to\\your\\archive\\folder\\portfolio-news-monitor",
+
+  "portfolio_companies": [
+    {
+      "name": "Vertiv Holdings",
+      "ticker": "VRT",
+      "aliases": ["Vertiv", "VRT"],
+      "sector": "Power & Thermal Management",
+      "status": "Public",
+      "ai_angle": "Core AI data center infrastructure — UPS, cooling, power distribution. Co-developing solutions with NVIDIA. Most direct AI exposure in hardware supply chain.",
+      "watch_for": "NVIDIA partnerships, hyperscaler contracts, M&A activity, BMarko integration"
+    },
+    {
+      "name": "Equinix",
+      "ticker": "EQIX",
+      "aliases": ["Equinix", "EQIX"],
+      "sector": "Colocation & Interconnection",
+      "status": "Public",
+      "ai_angle": "250+ data centers globally. AI workloads increasingly colocated due to power constraints. AI-native Fabric Intelligence platform deepens enterprise lock-in.",
+      "watch_for": "xScale leasing announcements, AI connectivity product updates, capital raises"
+    },
+    {
+      "name": "Eaton Corporation",
+      "ticker": "ETN",
+      "aliases": ["Eaton", "ETN"],
+      "sector": "Power Management",
+      "status": "Public",
+      "ai_angle": "Electrical infrastructure for data centers. Acquired Boyd Thermal ($9.5B) to enter liquid cooling. Grid-to-chip integrated offering targets hyperscalers.",
+      "watch_for": "Boyd Thermal integration updates, new hyperscaler wins, guidance changes"
+    },
+    {
+      "name": "nVent Electric",
+      "ticker": "NVT",
+      "aliases": ["nVent", "NVT"],
+      "sector": "Enclosures & Liquid Cooling",
+      "status": "Public",
+      "ai_angle": "Thermal management enclosures and liquid cooling for AI racks. In NVIDIA partner network. Organic orders +65% YoY driven by hyperscale programs.",
+      "watch_for": "Hyperscale program ramp, bolt-on M&A, NVIDIA partnership updates"
+    },
+    {
+      "name": "Celestica",
+      "ticker": "CLS",
+      "aliases": ["Celestica", "CLS"],
+      "sector": "Contract Manufacturing / AI Server Assembly",
+      "status": "Public (NYSE)",
+      "ai_angle": "Rack-level AI server assembly. Primary partner for Google TPU board and rack integration. Liquid-cooled rack systems shifting economics to integrated rack-level delivery.",
+      "watch_for": "Hyperscaler program announcements, earnings (Q1 due Apr 27), new customer wins"
+    },
+    {
+      "name": "Arista Networks",
+      "ticker": "ANET",
+      "aliases": ["Arista", "ANET"],
+      "sector": "Data Center Networking",
+      "status": "Public",
+      "ai_angle": "Spine/leaf networking for hyperscale AI training clusters. Beneficiary of Ethernet-over-InfiniBand trend. Liquid-cooled optics for high-density AI racks.",
+      "watch_for": "800G/optical product wins, AI cluster fabric announcements, competitive vs. InfiniBand"
+    },
+    {
+      "name": "Modine Manufacturing",
+      "ticker": "MOD",
+      "aliases": ["Modine", "MOD"],
+      "sector": "Thermal Management",
+      "status": "Public",
+      "ai_angle": "Spinning off auto segment to become pure-play data center cooling. New Data Centers division + president. Order funnel 3x since Sep 2024. Small cap — potential acquisition target.",
+      "watch_for": "Spin-off progress, acquisition interest signals, data center order wins"
+    }
+  ],
+
+  "competitor_watchlist": [
+    {
+      "name": "Digital Realty",
+      "ticker": "DLR",
+      "aliases": ["Digital Realty", "DLR"],
+      "sector": "Data Center REIT",
+      "status": "Public",
+      "ai_angle": "Wholesale/hyperscale data center REIT. $3.25B hyperscale fund raised Apr 2026. Expanding to Italy, Singapore. Hyperscaler pre-leasing at record pace.",
+      "watch_for": "New fund activity, regional M&A, hyperscaler leasing announcements"
+    },
+    {
+      "name": "Accelsius",
+      "ticker": null,
+      "aliases": ["Accelsius", "NeuCool"],
+      "sector": "Liquid Cooling (Private)",
+      "status": "Private — Series B ($65M, JCI + Legrand, early 2026)",
+      "ai_angle": "Two-phase direct-to-chip liquid cooling (NeuCool platform). Targets highest-density AI workloads. Founded 2022 (Innventure subsidiary). JCI strategic investment validates technology.",
+      "watch_for": "New customer wins, follow-on funding, strategic investor additions, acquisition signals"
+    },
+    {
+      "name": "Zayo Group",
+      "ticker": null,
+      "aliases": ["Zayo", "Zayo Networks"],
+      "sector": "Fiber & Dark Fiber Infrastructure (Private)",
+      "status": "Private — PE-owned (EQT + DigitalBridge, since 2020)",
+      "ai_angle": "Dense fiber network connecting data center campuses. Dark fiber and wavelength services are backbone for AI inference. PE hold approaching typical exit window.",
+      "watch_for": "Secondary sale, IPO signals, recapitalization, revenue run-rate leaks"
+    }
+  ],
+
+  "key_people": [
+    {
+      "name": "Giordano Albertazzi",
+      "role": "CEO",
+      "company": "Vertiv Holdings",
+      "track": "AI infrastructure strategy, hyperscaler partnerships, M&A commentary"
+    },
+    {
+      "name": "Adaire Fox-Martin",
+      "role": "CEO",
+      "company": "Equinix",
+      "track": "AI colocation strategy, capital allocation, Fabric Intelligence rollout"
+    },
+    {
+      "name": "Beth Wozniak",
+      "role": "CEO",
+      "company": "nVent Electric",
+      "track": "Liquid cooling strategy, NVIDIA partnership updates, M&A targets"
+    },
+    {
+      "name": "Rob Mionis",
+      "role": "CEO",
+      "company": "Celestica",
+      "track": "AI server manufacturing pipeline, hyperscaler customer mix, margin guidance"
+    }
+  ],
+
+  "signal_types": [
+    "press releases",
+    "product launches",
+    "funding rounds",
+    "M&A activity",
+    "security incidents",
+    "leadership changes (CEO/CFO/board)",
+    "key executive speeches, podcasts, interviews",
+    "SEC / regulatory filings",
+    "strategic partnerships",
+    "earnings surprises or guidance changes",
+    "hyperscaler customer announcements"
+  ],
+
+  "m_and_a_context": "Corp Dev / M&A focus on data center supply chain consolidation. Recent comps: CoolIT acquired by Ecolab ($4.75B, Mar 2026), Boyd Thermal by Eaton ($9.5B). AI power density increases make thermal management the binding constraint — cooling specialists command acquisition premiums. Key thesis: the supply chain is vertically integrating. Watch for: hyperscalers acquiring vendors for supply security, PE-backed assets approaching exit windows, compressed-multiple public cos becoming targets.",
+
+  "dedup_config": {
+    "daily_seen_log": "[archive_folder]/daily_seen.json",
+    "weekly_seen_log": "[archive_folder]/weekly_seen.json",
+    "daily_retention_days": 7,
+    "weekly_retention_days": 60
+  }
+}
